@@ -1,0 +1,10 @@
+name: myproject_env
+channels:
+  - defaults
+dependencies:
+  #- python=3.8  # Specify your Python version here
+  - pandas
+  - pip:
+    - reportlab
+    - cx_freeze
+
